@@ -3,7 +3,7 @@ import heroImage from "@/assets/hero-video-production.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-subtle">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-subtle pt-20">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img
@@ -29,12 +29,18 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Button variant="hero" size="xl" className="min-w-64">
-              Agenda tu demo gratis
+            <Button variant="hero" size="xl" className="min-w-64 animate-pulse-glow">
+              Comienza ahora
             </Button>
-            <Button variant="outline" size="xl" className="min-w-64">
-              Ver ejemplos
-            </Button>
+            <a
+              href="https://instagram.com/spot48.agency"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="outline" size="xl" className="min-w-64">
+                Instagram
+              </Button>
+            </a>
           </div>
         </div>
         
