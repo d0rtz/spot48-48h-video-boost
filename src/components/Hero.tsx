@@ -1,17 +1,11 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-video-production.jpg";
-
 const Hero = () => {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-subtle pt-20">
+  return <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-subtle pt-20">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img
-          src={heroImage}
-          alt="Professional video production studio"
-          className="w-full h-full object-cover opacity-10"
-        />
-        <div className="absolute inset-0 bg-gradient-hero opacity-90" />
+        <img src={heroImage} alt="Professional video production studio" className="w-full h-full object-cover opacity-10" />
+        
       </div>
       
       {/* Content */}
@@ -32,11 +26,7 @@ const Hero = () => {
             <Button variant="hero" size="xl" className="min-w-64 animate-pulse-glow">
               Comienza ahora
             </Button>
-            <a
-              href="https://instagram.com/spot48.agency"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://instagram.com/spot48.agency" target="_blank" rel="noopener noreferrer">
               <Button variant="outline" size="xl" className="min-w-64">
                 Instagram
               </Button>
@@ -60,8 +50,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
