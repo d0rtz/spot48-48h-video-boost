@@ -1,11 +1,12 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-video-production.jpg";
+import ParticleBackground from "./ParticleBackground";
 const Hero = () => {
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-subtle pt-20">
-      {/* Background Image */}
+      {/* Background with Particles */}
       <div className="absolute inset-0 z-0">
-        <img src={heroImage} alt="Professional video production studio" className="w-full h-full object-cover opacity-10" />
-        
+        <img src={heroImage} alt="Professional video production studio" className="w-full h-full object-cover opacity-5" />
+        <ParticleBackground />
       </div>
       
       {/* Content */}
