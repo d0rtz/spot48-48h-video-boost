@@ -1,4 +1,4 @@
-import logoOfficial from "@/assets/spot48-logo-official.png";
+import logoOfficial from "@/assets/spot48-logo-light.png";
 
 const Footer = () => {
   return (

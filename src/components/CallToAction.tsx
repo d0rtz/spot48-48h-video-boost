@@ -63,7 +63,7 @@ const CallToAction = () => {
             className="bg-background text-primary hover:bg-background/90 min-w-80 shadow-glow"
             onClick={() => window.open("https://docs.google.com/forms/d/YOUR_FORM_ID/viewform?embedded=true", "_blank")}
           >
-            Comenzar ahora - Pack desde 99€
+            Comenzar ahora - Pack desde 149€
           </Button>
           <p className="text-primary-foreground/80 mt-4">
             Entrega garantizada en 48 horas • Sin compromisos
