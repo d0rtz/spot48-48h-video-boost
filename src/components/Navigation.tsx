@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import logoDark from "@/assets/spot48-logo-dark.png";
 
 const Navigation = () => {
   const scrollToPricing = () => {
@@ -14,7 +15,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <h1 className="text-2xl font-bold text-primary">Spot48</h1>
+            <img src={logoDark} alt="Spot48 - Vídeos que venden en 48h" className="h-8 w-auto" />
           </div>
           
           {/* Desktop Navigation */}

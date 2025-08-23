@@ -1,3 +1,5 @@
+import logoLight from "@/assets/spot48-logo-light.png";
+
 const Footer = () => {
   return (
     <footer className="py-12 bg-accent text-accent-foreground">
@@ -5,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold text-primary mb-4">Spot48</h3>
+            <img src={logoLight} alt="Spot48 - Vídeos que venden en 48h" className="h-10 w-auto mb-4" />
             <p className="text-accent-foreground/80 mb-4">
               Vídeos que venden en 48h
             </p>
