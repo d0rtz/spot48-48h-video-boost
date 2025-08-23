@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-video-production.jpg";
+import logoOfficial from "@/assets/spot48-logo-official.png";
 import InteractiveBackground from "./InteractiveBackground";
 const Hero = () => {
   return <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-subtle pt-20">
@@ -13,9 +14,9 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
         <div className="animate-fade-in">
-          <h1 className="text-5xl md:text-7xl font-bold text-primary mb-6 leading-tight">
-            Spot48
-          </h1>
+          <div className="flex justify-center mb-6">
+            <img src={logoOfficial} alt="Spot48 - Vídeos que venden en 48h" className="h-16 w-auto" />
+          </div>
           <p className="text-2xl md:text-4xl font-semibold text-foreground mb-4">
             Vídeos que venden en 48h
           </p>

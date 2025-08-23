@@ -1,4 +1,4 @@
-import logoLight from "@/assets/spot48-logo-light.png";
+import logoOfficial from "@/assets/spot48-logo-official.png";
 
 const Footer = () => {
   return (
@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <img src={logoLight} alt="Spot48 - Vídeos que venden en 48h" className="h-10 w-auto mb-4" />
+            <img src={logoOfficial} alt="Spot48 - Vídeos que venden en 48h" className="h-10 w-auto mb-4" />
             <p className="text-accent-foreground/80 mb-4">
               Vídeos que venden en 48h
             </p>
