@@ -1,4 +1,4 @@
-import speedImage from "@/assets/speed-illustration.jpg"
+import speedImage from "@/assets/process.png"
 
 const Process = () => {
   const steps = [
