@@ -2,12 +2,17 @@
 
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
+import { useNavigate } from "react-router-dom"
 
 const PricingPlans = () => {
+  const navigate = useNavigate()
+
   const plans = [
     {
       name: "Básico",
       price: "149€",
+      originalPrice: "199€",
+      id: "basico",
       features: [
         "1 Vídeo Vertical (15-20 segundos)",
         "Guion + Voz + Subtítulos",
@@ -20,6 +25,8 @@ const PricingPlans = () => {
     {
       name: "Profesional",
       price: "249€",
+      originalPrice: "349€",
+      id: "profesional",
       features: [
         "3 Vídeos Verticales (15-25 segundos)",
         "Guion + Voz + Subtítulos",
@@ -34,11 +41,13 @@ const PricingPlans = () => {
     {
       name: "Premium",
       price: "399€",
+      originalPrice: "549€",
+      id: "premium",
       features: [
         "5 Vídeos Verticales (15-30 segundos)",
         "Guion + Voz + Subtítulos profesional",
         "3 Rondas de Ajustes",
-        "Entrega en 48h",
+        "Entrega en 24h",
         "Copies + Estrategia completa",
         "Consultoría personalizada 1h",
         "Soporte prioritario",
@@ -48,8 +57,8 @@ const PricingPlans = () => {
     },
   ]
 
-  const handleGetStarted = (planName: string) => {
-    window.open("https://docs.google.com/forms/d/YOUR_FORM_ID/viewform?embedded=true", "_blank")
+  const handleGetStarted = (planId: string) => {
+    navigate(`/checkout?plan=${planId}`)
   }
 
   return (
@@ -80,6 +89,9 @@ const PricingPlans = () => {
 
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold text-foreground mb-2">{plan.name}</h3>
+                <div className="mb-2">
+                  <span className="text-lg text-muted-foreground line-through mr-2">Antes {plan.originalPrice}</span>
+                </div>
                 <div className="text-4xl md:text-5xl font-bold text-primary mb-2">{plan.price}</div>
                 <p className="text-muted-foreground">Pago único</p>
               </div>
@@ -99,7 +111,7 @@ const PricingPlans = () => {
                 variant={plan.popular ? "cta" : "default"}
                 size="lg"
                 className="w-full mb-4"
-                onClick={() => handleGetStarted(plan.name)}
+                onClick={() => handleGetStarted(plan.id)}
               >
                 Comenzar ahora
               </Button>
@@ -109,7 +121,6 @@ const PricingPlans = () => {
           ))}
         </div>
 
-        {/* Money Back Guarantee */}
         <div className="mt-16 text-center">
           <div className="inline-flex items-center space-x-2 bg-primary/10 text-primary px-8 py-4 rounded-full">
             <span className="text-2xl">🛡️</span>

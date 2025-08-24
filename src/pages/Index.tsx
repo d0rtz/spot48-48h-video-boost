@@ -1,16 +1,17 @@
-import Navigation from "@/components/Navigation";
-import Hero from "@/components/Hero";
-import ProblemSolution from "@/components/ProblemSolution";
-import OurSolution from "@/components/OurSolution";
-import PricingPlans from "@/components/PricingPlans";
-import Process from "@/components/Process";
-import TrustedBy from "@/components/TrustedBy";
-import Testimonials from "@/components/Testimonials";
-import Results from "@/components/Results";
-import FAQ from "@/components/FAQ";
-import CallToAction from "@/components/CallToAction";
-import Footer from "@/components/Footer";
-import MobileStickyBar from "@/components/MobileStickyBar";
+import Navigation from "@/components/Navigation"
+import Hero from "@/components/Hero"
+import ProblemSolution from "@/components/ProblemSolution"
+import OurSolution from "@/components/OurSolution"
+import PricingPlans from "@/components/PricingPlans"
+import SubscriptionSection from "@/components/SubscriptionSection"
+import Process from "@/components/Process"
+import TrustedBy from "@/components/TrustedBy"
+import Testimonials from "@/components/Testimonials"
+import Results from "@/components/Results"
+import FAQ from "@/components/FAQ"
+import CallToAction from "@/components/CallToAction"
+import Footer from "@/components/Footer"
+import MobileStickyBar from "@/components/MobileStickyBar"
 
 const Index = () => {
   return (
@@ -20,6 +21,7 @@ const Index = () => {
       <ProblemSolution />
       <OurSolution />
       <PricingPlans />
+      <SubscriptionSection />
       <Process />
       <TrustedBy />
       <Testimonials />
@@ -29,7 +31,7 @@ const Index = () => {
       <Footer />
       <MobileStickyBar />
     </div>
-  );
-};
+  )
+}
 
-export default Index;
+export default Index
