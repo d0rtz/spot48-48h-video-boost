@@ -30,7 +30,7 @@ const CallToAction = () => {
                 variant="default" 
                 size="lg" 
                 className="w-full"
-                onClick={() => window.open("https://docs.google.com/forms/d/YOUR_FORM_ID/viewform?embedded=true", "_blank")}
+                onClick={() => window.open("https://instagram.com/spot48.agency", "_blank")}
               >
                 Solicita información
               </Button>
@@ -48,7 +48,12 @@ const CallToAction = () => {
                 15 minutos para analizar tus necesidades y mostrarte cómo 
                 podemos ayudarte.
               </p>
-              <Button variant="default" size="lg" className="w-full">
+              <Button 
+                variant="default" 
+                size="lg" 
+                className="w-full"
+                onClick={() => window.open("tel:+34611511651", "_self")}
+              >
                 Agendar Llamada
               </Button>
             </div>
@@ -61,7 +66,7 @@ const CallToAction = () => {
             variant="hero" 
             size="xl" 
             className="bg-background text-primary hover:bg-background/90 min-w-80 shadow-glow"
-            onClick={() => window.open("https://docs.google.com/forms/d/YOUR_FORM_ID/viewform?embedded=true", "_blank")}
+            onClick={() => window.location.href = "/checkout"}
           >
             Comenzar ahora - Pack desde 149€
           </Button>
