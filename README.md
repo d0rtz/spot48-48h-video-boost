@@ -1,73 +1,57 @@
-# Welcome to your Lovable project
+# 🌐 Spot48 - Agencia de Marketing Digital
 
-## Project info
+¡Hola! Este es el repositorio de **Spot48**, una landing page para una agencia de marketing digital especializada en la promoción de vídeos de YouTube. Este proyecto fue creado con el objetivo de diseñar una interfaz de usuario atractiva y funcional, que comunicara de manera efectiva los servicios ofrecidos por la agencia.
 
-**URL**: https://lovable.dev/projects/74640f1a-8158-4789-8d06-7fdc1ecbbb9e
+Este proyecto ha sido desarrollado con un stack moderno y eficiente, centrado en la creación de una experiencia de usuario fluida y visualmente atractiva.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+### 💻 Tecnologías Utilizadas
 
-**Use Lovable**
+Este proyecto ha sido construido con las siguientes herramientas, según lo que se indica en la información del repositorio:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/74640f1a-8158-4789-8d06-7fdc1ecbbb9e) and start prompting.
+* **Vite**: Un *bundler* de JavaScript moderno y rápido.
+* **React**: La biblioteca principal para construir la interfaz de usuario, permitiendo una arquitectura basada en componentes reutilizables.
+* **TypeScript**: Un superconjunto de JavaScript que añade tipado estático, mejorando la robustez y escalabilidad del código.
+* **Tailwind CSS**: Un *framework* de CSS que permite un desarrollo rápido y flexible mediante clases de utilidad.
+* **Shadcn UI**: Una colección de componentes reutilizables para construir la interfaz de usuario.
+* **Git & GitHub**: Para el control de versiones y la colaboración en el código.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+### 🎓 Lo que He Aprendido
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+A lo largo del desarrollo de esta página, he mejorado mis habilidades y conocimientos en:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* **Desarrollo Front-end con un Stack Moderno**: He trabajado con una combinación de herramientas actuales para crear una aplicación rápida y eficiente.
+* **React con TypeScript**: He practicado la creación de componentes en React, aprovechando las ventajas de TypeScript para un código más robusto y con menos errores.
+* **Estilización con Tailwind CSS**: He utilizado un enfoque de clases de utilidad para el diseño, lo que agiliza el proceso de estilización y permite una mayor coherencia visual.
+* **Componentes Reutilizables**: He implementado componentes de UI de **Shadcn UI** para acelerar el desarrollo y mantener un diseño coherente en toda la aplicación.
+* **Diseño Web y UX/UI**: He trabajado en la creación de una experiencia de usuario intuitiva, diseñando una estructura clara y un flujo de información que guía al usuario.
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🌟 Características Destacadas
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* **Diseño Atractivo**: Una interfaz visualmente agradable con una paleta de colores vibrante que se alinea con el sector del marketing digital.
+* **Componentes Modernos**: Utilización de componentes de **Shadcn UI** para una interfaz pulida y profesional.
+* **Totalmente Responsivo**: La web se adapta y se visualiza perfectamente en ordenadores, tabletas y móviles.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 🛠️ Cómo Iniciar el Proyecto (Uso Local)
 
-**Edit a file directly in GitHub**
+1.  Clona el repositorio usando la URL de Git:
+    `git clone https://github.com/d0rtz/spot48-48h-video-boost.git`
+2.  Navega al directorio del proyecto:
+    `cd spot48-48h-video-boost`
+3.  Instala las dependencias necesarias:
+    `npm i`
+4.  Inicia el servidor de desarrollo:
+    `npm run dev`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+### 🤝 Contribuciones
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/74640f1a-8158-4789-8d06-7fdc1ecbbb9e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Si encuentras algún error o tienes ideas para mejorar, no dudes en abrir un *issue* o una *pull request*. ¡Toda contribución es bienvenida!
